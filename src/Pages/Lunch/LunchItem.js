@@ -1,0 +1,14 @@
+import React from 'react';
+
+const LunchItem = ({item}) => {
+    const {name,img,price} = item;
+    return (
+        <div className='card'>
+            <img src={img} alt="" />
+            <h4>{name}</h4>
+            <p>${price}</p>
+        </div>
+    );
+};
+
+export default LunchItem;

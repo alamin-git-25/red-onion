@@ -1,0 +1,78 @@
+form{
+    width:500px;
+}
+.sing {
+    background:linear-gradient(to left, #06d69e18,#b5e48c4d);
+    padding: 20px;
+}
+.sing img{
+    width: 150px;
+    padding: 20px;
+}
+.sing h1{
+    font-size: 38px;
+    font-weight: 300;
+}
+.input-group input{
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(128, 128, 128, 0.171);
+    font-size: 20px;
+}
+.input-group .btn{
+   width: 520px;
+   height: 60px;
+   background: #d90429;
+   font-size: 20px;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 20px;
+}
+p a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.lines{
+    position: relative;
+   
+    
+}
+.line{
+    padding: 10px;
+    position: relative;
+    margin-top: 5px;
+}
+.line::before{
+    content: '';
+    width: 200px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    background: #000;
+}
+.line::after{
+    content: '';
+    width: 200px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    background: #000;
+}
+.google{
+    width: 520px;
+    height: 60px;
+    background: #d90429;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}

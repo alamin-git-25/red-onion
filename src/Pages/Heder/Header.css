@@ -1,0 +1,104 @@
+header .nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff3b;
+    backdrop-filter:blur(10px) ;
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 10;
+}
+nav .logo img{
+    width: 120px;
+    margin-left: 100px;
+}
+nav .links{
+    display:flex;
+    width: 15%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+.links li{
+    display: inline;
+}
+nav .links a{
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+#singup{
+    list-style: none;
+    padding:6px 30px 9px 30px;
+    background: #d90429;
+    border-radius: 20px;
+    
+}
+#singup a{
+    color: #fff;
+}
+#bx-carts{
+    font-size: 30px;
+}
+section{
+    width:100%;
+    height: 50vh;
+    background: url('/src/images/benner.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+   
+}
+section h2{
+    margin-top: 0;
+    font-size: 58px;
+    font-weight: 350;
+}
+.input{
+    position: relative;
+    width: 500px;
+    display: inline;
+}
+.input input{
+    width: 100%;
+    height: 45px;
+    /* padding: 0px 0px 0px 5px; */
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+#search-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 36px;
+    border-radius: 25px;
+    border: none;
+    background: #d90429;
+    color: #fff;
+}
+.food-links .navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li{
+  display: inline;
+  margin-right: 55px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #d90429;
+}
